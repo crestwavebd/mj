@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CrestWave</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CrestWave.styles.css" asp-append-version="true" />
+
+       <link rel="shortcut icon" href="https://mjahmad1.github.io/cwbd/img/cwld.png" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="https://mjahmad1.github.io/Reliable-Hand/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/Reliable-Hand/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://mjahmad1.github.io/Reliable-Hand/css/style.css" rel="stylesheet">
+
+    <!-- ser -->
+    <link href="https://mjahmad1.github.io/mjp/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/css/style.css" rel="stylesheet">
+
+    <link href="https://mjahmad1.github.io/Reliable-Hand/l/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://mjahmad1.github.io/Reliable-Hand/l/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="https://mjahmad1.github.io/Reliable-Hand/l/css/style.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/Reliable-Hand/css/pt5.css" rel="stylesheet">
+
+</head>
+<body>
+        <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <h1 class="m-0 display-5"><span class="text-primary">Faithful</span>PARTNER</h1>
+            </a>           
+        </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="text-center">
+            &copy; 2024 - CrestWave - All Rights Reserved.
+          <p>  <a asp-area="" asp-page="/Privacy">Privacy</a>
+           - <a asp-area="" asp-page="/Privacy">Terms</a>
+           - <a asp-area="" asp-page="/Me">Help</a>
+        </div>
+    </footer>
+    <script>
+        function showPricing(type) {
+            const products = document.querySelectorAll('.product');
+            products.forEach(product => {
+                product.textContent = product.getAttribute(`data-${type}`);
+            });
+        }
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/l/lib/easing/easing.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/l/lib/waypoints/waypoints.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/l/lib/counterup/counterup.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/l/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template JavaScript -->
+    <script src="https://mjahmad1.github.io/Reliable-Hand/l/js/main.js"></script>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/typed/typed.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/easing/easing.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/waypoints/waypoints.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact JavaScript File -->
+    <script src="https://mjahmad1.github.io/Reliable-Hand/mail/jqBootstrapValidation.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/mail/contact.js"></script>
+
+    <!-- Template JavaScript -->
+    <script src="https://mjahmad1.github.io/Reliable-Hand/js/main.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/script.js"></script>
+    <script>
+        const checkbox = document.getElementById("checkbox");
+        const professional = document.getElementById("professional");
+        const master = document.getElementById("master");
+        const basic = document.getElementById("basic");
+
+        checkbox.addEventListener("click", () => {
+            basic.textContent = basic.textContent === "$199.99" ? "$19.99" : "$199.99";
+            professional.textContent = professional.textContent === "$249.99" ? "$24.99 " : "$249.99";
+            master.textContent = master.textContent === "$399.99" ? "$39.99" : "$399.99";
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

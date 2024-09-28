@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .donation-form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .donation-form h2 {
+                margin-bottom: 20px;
+            }
+
+            .donation-form button {
+                padding: 10px 20px;
+                margin: 5px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+                .donation-form button.one-time {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+
+                .donation-form button.monthly {
+                    background-color: #008CBA;
+                    color: white;
+                }
+    </style>
+</head>
+<body>
+    <div class="donation-form">
+        <h2>Donate Now</h2>
+        <button class="one-time" onclick="redirectTo('onetime.html')">One Time</button>
+        <button class="monthly" onclick="redirectTo('monthly.html')">Monthly</button>
+    </div>
+
+    <script>function redirectTo(page) {
+window.location.href = page;
+}</script>
+</body>
+</html>

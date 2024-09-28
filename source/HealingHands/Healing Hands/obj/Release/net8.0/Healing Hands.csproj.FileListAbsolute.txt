@@ -1,0 +1,7 @@
+G:\source\HealingHands\Healing Hands\obj\Release\net8.0\Healing Hands.GeneratedMSBuildEditorConfig.editorconfig
+G:\source\HealingHands\Healing Hands\obj\Release\net8.0\Healing Hands.AssemblyInfoInputs.cache
+G:\source\HealingHands\Healing Hands\obj\Release\net8.0\Healing Hands.AssemblyInfo.cs
+G:\source\HealingHands\Healing Hands\obj\Release\net8.0\Healing Hands.csproj.CoreCompileInputs.cache
+G:\source\HealingHands\Healing Hands\obj\Release\net8.0\Healing Hands.MvcApplicationPartsAssemblyInfo.cache
+G:\source\HealingHands\Healing Hands\obj\Release\net8.0\Healing Hands.RazorAssemblyInfo.cache
+G:\source\HealingHands\Healing Hands\obj\Release\net8.0\Healing Hands.RazorAssemblyInfo.cs

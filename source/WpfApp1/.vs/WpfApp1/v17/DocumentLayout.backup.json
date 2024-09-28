@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\source\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\source\\WebApplication1\\freelancer-portfolio-template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\source\\WebApplication1\\cake-shop-website-template - Copy\\um1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mjahm\\AppData\\Local\\Temp\\787e6650-6611-4ac0-a694-93474beb6034_freelancer-portfolio-template.zip.034\\freelancer-portfolio-template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\source\\WebApplication1\\cake-shop-website-template - Copy\\um.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\source\\WebApplication1\\um\\um.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\source\\WebApplication1\\um\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mjahm\\bkash\\node-v20.13.1\\.devcontainer\\devcontainer.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\mjahm\\AppData\\Local\\Temp\\787e6650-6611-4ac0-a694-93474beb6034_freelancer-portfolio-template.zip.034\\freelancer-portfolio-template\\index.html",
+              "ToolTip": "C:\\Users\\mjahm\\AppData\\Local\\Temp\\787e6650-6611-4ac0-a694-93474beb6034_freelancer-portfolio-template.zip.034\\freelancer-portfolio-template\\index.html [Read Only]",
+              "ViewState": "AgIAAKcBAAAAAAAAAAAAAMABAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-15T23:40:31.16Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "um1.html",
+              "DocumentMoniker": "G:\\source\\WebApplication1\\cake-shop-website-template - Copy\\um1.html",
+              "RelativeDocumentMoniker": "..\\WebApplication1\\cake-shop-website-template - Copy\\um1.html",
+              "ToolTip": "G:\\source\\WebApplication1\\cake-shop-website-template - Copy\\um1.html*",
+              "RelativeToolTip": "..\\WebApplication1\\cake-shop-website-template - Copy\\um1.html*",
+              "ViewState": "AgIAAGoCAAAAAAAAAAAAAIsCAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-15T12:51:56.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "um.html",
+              "DocumentMoniker": "G:\\source\\WebApplication1\\cake-shop-website-template - Copy\\um.html",
+              "RelativeDocumentMoniker": "..\\WebApplication1\\cake-shop-website-template - Copy\\um.html",
+              "ToolTip": "G:\\source\\WebApplication1\\cake-shop-website-template - Copy\\um.html",
+              "RelativeToolTip": "..\\WebApplication1\\cake-shop-website-template - Copy\\um.html",
+              "ViewState": "AgIAAF4BAAAAAAAAAAAAAF4BAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-15T12:07:40.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "G:\\source\\WebApplication1\\freelancer-portfolio-template\\index.html",
+              "RelativeDocumentMoniker": "..\\WebApplication1\\freelancer-portfolio-template\\index.html",
+              "ToolTip": "G:\\source\\WebApplication1\\freelancer-portfolio-template\\index.html",
+              "RelativeToolTip": "..\\WebApplication1\\freelancer-portfolio-template\\index.html",
+              "ViewState": "AgIAAF8EAAAAAAAAAAAAAIoEAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-15T07:05:51.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "um.html",
+              "DocumentMoniker": "G:\\source\\WebApplication1\\um\\um.html",
+              "RelativeDocumentMoniker": "..\\WebApplication1\\um\\um.html",
+              "ToolTip": "G:\\source\\WebApplication1\\um\\um.html*",
+              "RelativeToolTip": "..\\WebApplication1\\um\\um.html*",
+              "ViewState": "AgIAAGcGAAAAAAAAAAAAAIAGAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-15T06:12:44.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "G:\\source\\WebApplication1\\um\\index.html",
+              "RelativeDocumentMoniker": "..\\WebApplication1\\um\\index.html",
+              "ToolTip": "G:\\source\\WebApplication1\\um\\index.html",
+              "RelativeToolTip": "..\\WebApplication1\\um\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-15T06:12:33.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "devcontainer.json",
+              "DocumentMoniker": "C:\\Users\\mjahm\\bkash\\node-v20.13.1\\.devcontainer\\devcontainer.json",
+              "ToolTip": "C:\\Users\\mjahm\\bkash\\node-v20.13.1\\.devcontainer\\devcontainer.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-01T11:43:13.235Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

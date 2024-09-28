@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TrustedPay",
+    "\\TrustedPay\\bin",
+    "\\TrustedPay\\bin\\Debug",
+    "\\TrustedPay\\bin\\Debug\\net8.0",
+    "\\TrustedPay\\bin\\Release",
+    "\\TrustedPay\\Controllers",
+    "\\TrustedPay\\Views",
+    "\\TrustedPay\\Views\\Home",
+    "\\TrustedPay\\Views\\Shared"
+  ],
+  "SelectedNode": "\\TrustedPay.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,712 @@
+﻿<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Help Today, Because Tomorrow You May Need Help">
+    <meta property="og:description" content="Empower a New Generation of Freedom Fighters">
+    <meta property="og:image" content="https://mjahmad1.github.io/cwbd/img/100.jpg">
+    <meta property="og:url" content="https://mjahmad1.github.io/cwbd/pay.html">
+    <title>CrestWave</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+        body {
+            font-family: 'Galada', cursive;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header-2 {
+            font-family: Galada, sans-serif;
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+            text-align: center;
+        }
+
+            header-2 a {
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+
+            header-2 h1 {
+                font-family: Galada, sans-serif;
+                padding: 0;
+                list-style: none;
+            }
+
+            header-2 ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            header-2 li {
+                float: left;
+                display: inline;
+                padding: 0 20px 0 20px;
+            }
+
+            header-2 #branding {
+                float: left;
+            }
+
+                header-2 #branding h1 {
+                    margin: 0;
+                }
+
+            header-2 nav {
+                float: right;
+                margin-top: 10px;
+            }
+
+        .header {
+            background: url('https://mjahmad1.github.io/cwbd/img/jo6.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+            .header img {
+                width: 70px;
+                height: 70px;
+            }
+
+        .donation-box {
+            padding: 20px;
+            text-align: center;
+        }
+
+            .donation-box h2 {
+                margin-bottom: 20px;
+            }
+
+            .donation-box input[type="text"], .donation-box input[type="number"] {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .donation-box button {
+                background: #28a745;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+                .donation-box button i {
+                    margin-right: 10px;
+                }
+
+                .donation-box button:hover {
+                    background: #218838;
+                }
+
+        .payment-methods {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .payment-methods h3 {
+                margin-bottom: 20px;
+            }
+
+            .payment-methods .buttons {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            .payment-methods button {
+                background: #007bff;
+                color: #fff;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 1 1 calc(50% - 20px);
+                max-width: 200px;
+            }
+
+                .payment-methods button i {
+                    margin-right: 5px;
+                }
+
+                .payment-methods button:hover {
+                    background: #0056b3;
+                }
+
+        .payment-method {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .payment-method h3 {
+                margin-bottom: 20px;
+            }
+
+            .payment-method .buttons {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            .payment-method button {
+                background: #007bff;
+                color: #fff;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 1 1 calc(50% - 20px);
+                max-width: 200px;
+            }
+
+                .payment-method button i {
+                    margin-right: 5px;
+                }
+
+                .payment-method button:hover {
+                    background: #0056b3;
+                }
+
+        .footer {
+            background: #f1f1f1;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+            .footer .social-media {
+                margin-bottom: 10px;
+            }
+
+                .footer .social-media a {
+                    color: #333;
+                    font-size: 24px;
+                    margin: 0 10px;
+                    text-decoration: none;
+                }
+
+                    .footer .social-media a:hover {
+                        color: #007bff;
+                    }
+
+            .footer .links a {
+                color: #333;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+
+                .footer .links a:hover {
+                    text-decoration: underline;
+                }
+
+        .faq {
+            padding: 20px;
+            text-align: left;
+        }
+
+            .faq h2 {
+                margin-bottom: 20px;
+            }
+
+            .faq dt {
+                font-weight: bold;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+
+            .faq dd {
+                margin-left: 20px;
+                margin-bottom: 10px;
+                display: none;
+            }
+
+        .faq-visible dt {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .faq-visible dd {
+            margin-left: 20px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .fundraising-section {
+            padding: 20px;
+            text-align: center;
+            background-color: #e9ecef;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+            .fundraising-section img {
+                width: 50%;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+
+            .fundraising-section .progress-bar {
+                background-color: #28a745;
+                height: 20px;
+                border-radius: 5px;
+                width: 10%;
+                position: relative;
+            }
+
+                .fundraising-section .progress-bar::after {
+                    content: '10%';
+                    position: absolute;
+                    right: 10px;
+                    top: 0;
+                    color: #fff;
+                    font-weight: bold;
+                }
+
+            .fundraising-section .goal-raised {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                text-align: center;
+            }
+
+        a {
+            text-decoration: none;
+        }
+
+
+
+        section {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+
+            section a {
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+
+            section ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            section li {
+                float: left;
+                display: inline;
+                padding: 0 20px 0 20px;
+            }
+
+            section #branding {
+                float: left;
+            }
+
+                section #branding h1 {
+                    margin: 0;
+                }
+
+            section nav {
+                float: right;
+                margin-top: 10px;
+            }
+
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+
+            .showcase h1 {
+                margin-top: 100px;
+                font-size: 55px;
+                margin-bottom: 10px;
+            }
+
+            .showcase p {
+                font-size: 20px;
+            }
+
+        .content {
+            padding: 20px;
+            background: #fff;
+        }
+
+            .content h2 {
+                color: #333;
+            }
+
+            .content p {
+                font-size: 18px;
+            }
+
+        .donate {
+            background: #77aaff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+            .donate p {
+                background: url('https://mjahmad1.github.io/cwbd/img/hif1.jpg') no-repeat center center;
+                background-size: cover;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .donate a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 20px;
+                border: 1px solid #fff;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="img/g1.gif" alt="" width="70" height="70">
+    </div>
+
+    <div class="container">
+        <div class="donation-box">
+            <p><b>বন্যায় ক্ষতিগ্রস্ত হিফজ শিক্ষার্থীদের জন্য জরুরী সহায়তা করুন!🕋</b></p>
+            <p>সম্প্রতি ঘটে যাওয়া বন্যায় অসংখ্য হিফজ শিক্ষা প্রতিষ্ঠান ও শিক্ষার্থীদের জীবন আশংকাজনিত</p>
+        </div>
+    </div>
+    <!-- Events Start -->
+    <div class="container-fluid event py-5">
+        <div class="container">
+            <div class="event-carousel owl-carousel">
+                <div class="event-item">
+                    <img src="img/ja1.jpg" class="img-fluid w-100" alt="Image">
+                </div>
+                <div class="event-item">
+                    <img src="img/ja2.jpg" class="img-fluid w-100" alt="Image">
+                </div>
+                <div class="event-item">
+                    <img src="img/ja3.jpg" class="img-fluid w-100" alt="Image">
+                </div>
+                <div class="event-item">
+                    <img src="img/ja4.jpg" class="img-fluid w-100" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Events End -->
+
+    <div class="footer">
+        <div class="social-media">
+            <small><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $20000</small>
+            <small><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $1000</small>
+            <div class="progress-bar">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <span>20%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="footer">
+            <p><b>হিফজ শিক্ষার্থীরা, যারা কোরআন মুখস্থ করছে, তাদের জন্য এই পরিস্থিতি অত্যন্ত সংকটময়।</b></p>
+            <p><b>মহাগ্রন্থ আল-কোরআন মুখস্থ করা অবস্থায় ধারাবাহিক অনুশীলনে বাধাগ্রস্ত হলে, একজন হিফজ শিক্ষার্থীর জন্য পুরো কোরআন মাজিদ আয়ত্ত করা অনেক বড় কষ্ট সাধ্য</b></p>
+            <p>আপনার সহযোগিতা একজন হিফজ শিক্ষার্থীকে তার হাফেজ হওয়ার স্বপ্ন পূরণে সহায়ক হবে</p>
+            <p>🫳অনুগ্রহ নয়,🙏 <br>হিফজ শিক্ষার্থীদের প্রতি গভীর শ্রদ্ধা ও ভালবাসা পূর্ন হৃদয়🫀 দিয়ে সামর্থ্য অনুযায়ী সহযোগি হোন।</p>
+            <p>সহযোগি হতে 👇 ক্লিক করুন</p>
+            <button onclick="showPaymentMethods()"><i class="fas fa-hand-holding-heart"></i>Donate now</button>
+            <button><i class="fas fa-hand-holding-heart"></i>সহযোগি হোন</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="donation-box">
+            <p><b>প্রকল্প ভিত্তিক সহযোগিতা করুন</b></p>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="footer">
+            <p><b>⛺অস্থায়ী ক্লাসরুম স্থাপন করে শিক্ষার কার্যক্রম অতিদ্রুত সময়ের মধ্যে পুনরায় শুরু করা</b></p>
+            <p>⛺ $ 160000 USD</p>
+            <p>⛺ $ 160000 USD</p>
+            <p>👇</p>
+            <button onclick="showPaymentMethods()"><i class="fas fa-hand-holding-heart"></i>Donate now</button>
+            <button><i class="fas fa-hand-holding-heart"></i>সহযোগি হোন</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p><b>পুষ্টিকর খাদ্য ও সঠিক চিকিৎসা</b> না পেলে তারা মানসিক ও শারীরিকভাবে ক্ষতিগ্রস্ত হতে পারে এবং তাদের মুখস্থ করা কোরআনের অংশ ভুলে যাওয়ার আশঙ্কা রয়েছে।</p>
+    </div>
+
+
+    <div class="header">
+        <div class="footer">
+            <p><b>🥦হিফজ শিক্ষার্থীদের জন্য পুষ্টিকর খাদ্য সরবরাহ করা।</b></p>
+            <p>🍏🥕🥦🫑🥒🥬🌽🍄‍🟫🍞🧀🥯</p>
+            <p>সহযোগি হতে 👇 ক্লিক করুন</p>
+            <button onclick="showPaymentMethods()"><i class="fas fa-hand-holding-heart"></i>Donate now</button>
+            <button><i class="fas fa-hand-holding-heart"></i>সহযোগি হোন</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>📔শিক্ষার্থীদের হাতে কোরআনের কপি পৌঁছানো</p>
+    </div>
+
+
+    <div class="header">
+        <div class="footer">
+            <p><b>📔শিক্ষার্থীদের হাতে কোরআনের কপি পৌঁছানো।</b></p>
+            <p>সহযোগি হতে 👇 ক্লিক করুন</p>
+            <button onclick="showPaymentMethods()"><i class="fas fa-hand-holding-heart"></i>Donate now</button>
+            <button><i class="fas fa-hand-holding-heart"></i>সহযোগি হোন</button>
+        </div>
+    </div>
+
+
+    <div class="donation-box">
+
+    </div>
+    <div class="payment-methods" id="paymentMethods">
+        <h3>Select your payment method</h3>
+        <div class="buttons">
+            <button onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'"><i class="fab fa-paypal"></i>PayPal</button>
+            <button onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'"><i class="fab fa-cc-visa"></i>VISA</button>
+            <button onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'"><i class="fab fa-cc-amex"></i>AMEX</button>
+            <button onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'"><i class="fas fa-university"></i>Bank Transfer</button>
+            <button onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'"><i class="fab fa-cc-stripe"></i>Stripe</button>
+        </div>
+        <p>আপনি যদি পেমেন্ট সংক্রান্ত কোনো সমস্যা বা অভিযোগ করতে চান, অথবা মাঠ পর্যায়ে কর্মরত আমাদের কর্মীদের কার্যক্রমে কোনো অসঙ্গতি লক্ষ্য করেন,<br> দয়া করে নিচের ইমেইল ঠিকানায় যোগাযোগ করুন: <a href="mailto:mjahmad2024@outlook.com">mjahmad2024@outlook.com</a></p>
+        <p>আমরা একসাথে একটি সুন্দর ও সমৃদ্ধশালী ভবিষ্যৎ বাংলাদেশ গড়ে তুলবো।ইনশাআল্লাহ❤️</p>
+    </div>
+
+    <div class="container">
+        <div class="footer">
+            <span class="text-primary" data-toggle="counter-up">36000</span>
+            <span class="h1 fw-bold text-primary">+</span>
+            <p>👥ক্ষতিগ্রস্ত হিফজ শিক্ষার্থী</p>
+            <span class="text-primary" data-toggle="counter-up">813</span>
+            <span class="h1 fw-bold text-primary">+</span>
+            <p>🏚️ক্ষতিগ্রস্ত হিফজ শিক্ষা প্রতিষ্ঠান</p>
+            <span class="text-primary" data-toggle="counter-up">3079</span>
+            <span class="h1 fw-bold text-primary">+</span>
+            <p>👳ক্ষতিগ্রস্ত হিফজ শিক্ষক</p>
+            <span class="text-primary" data-toggle="counter-up">25663</span>
+            <span class="h1 fw-bold text-primary">+</span>
+            <p>👩‍❤️‍👨এতিম ও দারিদ্র শিক্ষার্থী</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            👳
+            <p><b>পরম শ্রদ্ধেয় প্রিয় ভাই /বোন! </b></p>
+            <p>মহাগ্রন্থ আল-কোরআন, পরম করুনাময় রাব্বুল আ-লামিনের কালাম</p>
+            <p>মহাগ্রন্থ আল-কোরআনের সংরক্ষণের অন্যতম মাধ্যম তা মুখস্থ করে আয়ত্ত করা, আপনার সহযোগিতায় এই বরকতময় কাজের সাথে সম্পৃক্ত শিক্ষার্থী, শিক্ষকদের কোরআন মুখস্থ করার ধারাবাহিক অবস্থা দ্রুত সময়ের মধ্যে ব্যবস্থা করা যেতে পারে, ইনশাআল্লাহ</p>
+            <p><b>রাসূল সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম বলেছেন:</b> যারা কোরআন ওয়ালা, তারা আল্লাহ তায়ালার বিশেষ পরিবারের অন্তর্ভুক্ত</p>
+            <p>বন্যা কবলিত ক্ষতিগ্রস্ত অন্চলের হিফজ শিক্ষার্থীদের শিক্ষা কার্যক্রম অতি দ্রুত সময়ের মধ্যে স্বাভাবিক করে তুলতে সহযোগি হোন </p>
+        </div>
+    </div>
+    <!-- Counter End -->
+    <div class="container">
+        <div class="donation-box">
+            <p><b>আপনার সহায়তা একটি শিশুর জন্য সুসজ্জিত শিক্ষিত বাংলাদেশ গড়তে সহায়ক হবে।</b></p>
+            <button onclick="showPaymentMethods()"><i class="fas fa-hand-holding-heart"></i>Donate now</button>
+        </div>
+        <div class="payment-methods" id="paymentMethods">
+            <h3>Select your payment method</h3>
+            <div class="buttons">
+                <button onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'"><i class="fab fa-paypal"></i>PayPal</button>
+                <button onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'"><i class="fab fa-cc-visa"></i>VISA</button>
+                <button onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'"><i class="fab fa-cc-amex"></i>AMEX</button>
+                <button onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'"><i class="fas fa-university"></i>Bank Transfer</button>
+                <button onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'"><i class="fab fa-cc-stripe"></i>Stripe</button>
+            </div>
+            <p>আপনি যদি পেমেন্ট সংক্রান্ত কোনো সমস্যা বা অভিযোগ করতে চান, অথবা মাঠ পর্যায়ে কর্মরত আমাদের কর্মীদের কার্যক্রমে কোনো অসঙ্গতি লক্ষ্য করেন, দয়া করে নিচের ইমেইল ঠিকানায় যোগাযোগ করুন: <a href="mailto:mjahmad2024@outlook.com">mjahmad2024@outlook.com</a></p>
+            <p>আমরা একসাথে একটি সুন্দর ও সমৃদ্ধশালী ভবিষ্যৎ বাংলাদেশ গড়ে তুলবো।ইনশাআল্লাহ</p>
+        </div>
+    </div>
+
+    <!-- Events Start -->
+    <div class="container-fluid event py-5">
+        <div class="container">
+            <div class="event-carousel owl-carousel">
+                <div class="event-item">
+                    <img src="img/560.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="event-content p-4">
+                        <p><b>কোরআন সরবরাহ</b></p>
+                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">অংশ গ্রহন করুন</a>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="img/hif2.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="event-content p-4">
+                        <p><b>কোরআন মুদ্রন প্রকল্প</b></p>
+                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">সহযোগি হোন</a>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="img/558.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="event-content p-4">
+                        <p><b>পুষ্টিকর খাদ্য সরবরাহ</b></p>
+                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">অনুদান দিন </a>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="img/559.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="event-content p-4">
+                        <p><b>অস্থায়ী ক্লাসের ব্যবস্থা</b></p>
+                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">অনুদান দিন</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Events End -->
+    <!-- footer -->
+
+    <div class="container">
+        <div class="footer">
+            <p><b>We accept..</b></p>
+            <button><i class="fab fa-paypal"></i>PayPal</button>
+            <button><i class="fab fa-cc-visa"></i>VISA</button>
+            <button><i class="fab fa-cc-amex"></i>AMEX</button>
+            <button><i class="fas fa-university"></i>Bank Transfer</button>
+            <button><i class="fab fa-cc-stripe"></i>Stripe</button>
+        </div>
+    </div>
+
+
+    <div class="footer">
+    </div>
+    </div>
+    <div class="container">
+        <div class="buttons">
+            <p>
+                সমস্যা বা অভিযোগ করতে চান, অথবা মাঠ পর্যায়ে কর্মরত আমাদের কর্মীদের কার্যক্রমে কোনো অসঙ্গতি লক্ষ্য করেন, দয়া করে নিচের ইমেইল ঠিকানায় যোগাযোগ করুন: <a href="mailto:mjahmad2024@outlook.com">mjahmad2024@outlook.com</a>
+            </p>
+            <p>আমরা একসাথে একটি সুন্দর ও সমৃদ্ধশালী ভবিষ্যৎ বাংলাদেশ গড়ে তুলবো।ইনশাআল্লাহ</p>
+            💖💖💖
+        </div>
+    </div>
+    <div class="header">
+        <div class="footer">
+            <p>©2024 <strong>CrestWave</strong></p>
+            <p><b>With a Vision for Tomorrow's Leaders</b> <br>by <a href="https://climate.stripe.com/ArsPAE">MJ-AHMAD</a></p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/MdJaforAhmad1989"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/QuranerFariwala"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/jafor-ahmod/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.github.con/mjahmad1"><i class="fab fa-github"></i></a>
+                <a href="https://orcid.org/0009-0008-8560-0756"><i class="fab fa-orcid"></i></a>
+            </div>
+            <div class="links">
+                <a href="https://mjahmad1.github.io/cwbd/terms.html">Terms</a>
+                <a href="https://mjahmad1.github.io/cwbd/privacy.html">Privacy</a>
+                <a href="https://mjahmad1.github.io/cwbd/about.html">About</a>
+                <a href="https://mjahmad1.github.io/cwbd/"><strong>Home</strong></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnswer(element) {
+            var answer = element.nextElementSibling;
+            if (answer.style.display === "none" || answer.style.display === "") {
+                answer.style.display = "block";
+            } else {
+                answer.style.display = "none";
+            }
+        }
+
+        function showPaymentMethods() {
+            document.getElementById('paymentMethods').style.display = 'block';
+        }
+
+        function showPaymentMethod() {
+            document.getElementById('paymentMethod').style.display = 'block';
+        }</script>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

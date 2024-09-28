@@ -1,0 +1,15 @@
+G:\source\me\bin\Release\net8.0\me.exe
+G:\source\me\bin\Release\net8.0\me.deps.json
+G:\source\me\bin\Release\net8.0\me.runtimeconfig.json
+G:\source\me\bin\Release\net8.0\me.dll
+G:\source\me\bin\Release\net8.0\me.pdb
+G:\source\me\obj\Release\net8.0\me.GeneratedMSBuildEditorConfig.editorconfig
+G:\source\me\obj\Release\net8.0\me.AssemblyInfoInputs.cache
+G:\source\me\obj\Release\net8.0\me.AssemblyInfo.cs
+G:\source\me\obj\Release\net8.0\me.csproj.CoreCompileInputs.cache
+G:\source\me\obj\Release\net8.0\me.dll
+G:\source\me\obj\Release\net8.0\refint\me.dll
+G:\source\me\obj\Release\net8.0\me.pdb
+G:\source\me\obj\Release\net8.0\me.genruntimeconfig.cache
+G:\source\me\obj\Release\net8.0\ref\me.dll
+G:\source\me\bin\Release\net8.0\Settings.job

@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+G:\source\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(1,21): error C2059: syntax error: ';'
+G:\source\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(3,16): error C2143: syntax error: missing ';' before '<class-head>'
+G:\source\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(3,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\source\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(5,22): error C2061: syntax error: identifier 'string'
+G:\source\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(10,1): error C1004: unexpected end-of-file found

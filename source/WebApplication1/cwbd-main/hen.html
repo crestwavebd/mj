@@ -1,0 +1,605 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Urgent Assistance for Hifz Students Affected by Floods!">
+    <meta property="og:description" content="When the continuous practice of memorizing the Holy Quran is interrupted, it becomes extremely challenging for a Hifz student to master the entire Quran.">
+    <meta property="og:image" content="https://mjahmad1.github.io/cwbd/img/558.jpg">
+    <meta property="og:url" content="https://mjahmad1.github.io/cwbd/hbn.html">
+    <title>CrestWave</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header-2 {
+            font-family:, sans-serif;
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+            text-align: center;
+        }
+
+            header-2 a {
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+
+            header-2 h1 {
+                font-family:, sans-serif;
+                padding: 0;
+                list-style: none;
+            }
+
+            header-2 ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            header-2 li {
+                float: left;
+                display: inline;
+                padding: 0 20px 0 20px;
+            }
+
+            header-2 #branding {
+                float: left;
+            }
+
+                header-2 #branding h1 {
+                    margin: 0;
+                }
+
+            header-2 nav {
+                float: right;
+                margin-top: 10px;
+            }
+
+        .header {
+            background: url('https://mjahmad1.github.io/cwbd/img/jo6.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+            .header img {
+                width: 70px;
+                height: 70px;
+            }
+
+        .donation-box {
+            padding: 20px;
+            text-align: center;
+        }
+
+            .donation-box h2 {
+                margin-bottom: 20px;
+            }
+
+            .donation-box input[type="text"], .donation-box input[type="number"] {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .donation-box button {
+                background: #28a745;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+                .donation-box button i {
+                    margin-right: 10px;
+                }
+
+                .donation-box button:hover {
+                    background: #218838;
+                }
+
+        .payment-methods {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .payment-methods h3 {
+                margin-bottom: 20px;
+            }
+
+            .payment-methods .buttons {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            .payment-methods button {
+                background: #007bff;
+                color: #fff;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 1 1 calc(50% - 20px);
+                max-width: 200px;
+            }
+
+                .payment-methods button i {
+                    margin-right: 5px;
+                }
+
+                .payment-methods button:hover {
+                    background: #0056b3;
+                }
+
+        .payment-method {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .payment-method h3 {
+                margin-bottom: 20px;
+            }
+
+            .payment-method .buttons {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            .payment-method button {
+                background: #007bff;
+                color: #fff;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 1 1 calc(50% - 20px);
+                max-width: 200px;
+            }
+
+                .payment-method button i {
+                    margin-right: 5px;
+                }
+
+                .payment-method button:hover {
+                    background: #0056b3;
+                }
+
+        .footer {
+            background: #f1f1f1;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+            .footer .social-media {
+                margin-bottom: 10px;
+            }
+
+                .footer .social-media a {
+                    color: #333;
+                    font-size: 24px;
+                    margin: 0 10px;
+                    text-decoration: none;
+                }
+
+                    .footer .social-media a:hover {
+                        color: #007bff;
+                    }
+
+            .footer .links a {
+                color: #333;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+
+                .footer .links a:hover {
+                    text-decoration: underline;
+                }
+
+        .faq {
+            padding: 20px;
+            text-align: left;
+        }
+
+            .faq h2 {
+                margin-bottom: 20px;
+            }
+
+            .faq dt {
+                font-weight: bold;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+
+            .faq dd {
+                margin-left: 20px;
+                margin-bottom: 10px;
+                display: none;
+            }
+
+        .faq-visible dt {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .faq-visible dd {
+            margin-left: 20px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .fundraising-section {
+            padding: 20px;
+            text-align: center;
+            background-color: #e9ecef;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+            .fundraising-section img {
+                width: 50%;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+
+            .fundraising-section .progress-bar {
+                background-color: #28a745;
+                height: 20px;
+                border-radius: 5px;
+                width: 10%;
+                position: relative;
+            }
+
+                .fundraising-section .progress-bar::after {
+                    content: '10%';
+                    position: absolute;
+                    right: 10px;
+                    top: 0;
+                    color: #fff;
+                    font-weight: bold;
+                }
+
+            .fundraising-section .goal-raised {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                text-align: center;
+            }
+
+        a {
+            text-decoration: none;
+        }
+
+        section {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+
+            section a {
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+
+            section ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            section li {
+                float: left;
+                display: inline;
+                padding: 0 20px 0 20px;
+            }
+
+            section #branding {
+                float: left;
+            }
+
+                section #branding h1 {
+                    margin: 0;
+                }
+
+            section nav {
+                float: right;
+                margin-top: 10px;
+            }
+
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+
+            .showcase h1 {
+                margin-top: 100px;
+                font-size: 55px;
+                margin-bottom: 10px;
+            }
+
+            .showcase p {
+                font-size: 20px;
+            }
+
+        .content {
+            padding: 20px;
+            background: #fff;
+        }
+
+            .content h2 {
+                color: #333;
+            }
+
+            .content p {
+                font-size: 18px;
+            }
+
+        .donate {
+            background: #77aaff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+            .donate p {
+                background: url('https://mjahmad1.github.io/cwbd/img/hif1.jpg') no-repeat center center;
+                background-size: cover;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .donate a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 20px;
+                border: 1px solid #fff;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="donation-box">
+            <h3>QURANER FARIWALA</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <p><b>Quran Distribution Project for Students in Flood-Affected Areas</b></p>
+            <p><b>Total Budget: 22,600,000 BDT</b> </p>
+
+            <p><b>1. Project Objectives:</b></p>
+            <ul>
+                <li>Distribute the Quran among students in flood-affected areas.</li>
+                <li>Promote religious education among students.</li>
+                <li>Enhance religious values and moral education.</li>
+                <li>Encourage interest in education in flood-affected areas.</li>
+            </ul>
+
+            <p><b>2. Target Group:</b></p>
+            <ul>
+                <li>Students in flood-affected areas (ages 6-18 years).</li>
+                <li>Local mosques and religious institutions.</li>
+                <li>Members of the local community.</li>
+            </ul>
+
+            <p><b>3. Project Duration:</b></p>
+            <ul>
+                <li>Total duration: 6 months.</li>               
+                <li>Timeline for project phases:</li>    
+                    <ul>
+                    <li>Printing: 1 month</li>
+                    <li>Transportation: 2 months</li>
+                    <li>Distribution: 3 months</li>
+                    </ul>
+                </ul>
+            
+
+            <p><b>4. Project Phases:</b></p>
+            <div class="step">
+                <p>1. Printing:</p>
+                <ul>
+                    <li>Contract with a reliable publishing house for printing the Quran.</li>
+                    <li>Test samples to ensure printing quality.</li>
+                    <li>Determine the quantity to be printed (60,000 copies).</li>
+                </ul>
+            </div>
+
+            <div class="step">
+                <p>2. Transportation:</p>
+                <ul>
+                    <li>Contract with a transportation company to deliver the printed Qurans to flood-affected areas.</li>
+                    <li>Set transportation schedules and ensure timely delivery.</li>
+                    <li>Ensure the safety and security of the flood-affected areas.</li>
+                </ul>
+            </div>
+
+            <div class="step">
+                <p>3. Distribution:</p>
+                <ul>
+                    <li>Plan the distribution of the Quran in local schools and mosques.</li>
+                    <li>Communicate with students and their guardians.</li>
+                    <li>Discuss the importance of religious education during distribution.</li>
+                </ul>
+            </div>
+
+            <p><b>5. Budget Plan</b></p>
+            <div class="budget">
+                <p>1. Printing Costs:</p>
+                <ul>
+                    <li>Printing cost per Quran: 360 BDT</li>
+                    <li>Total printing cost: 60,000 copies × 360 BDT = <b>21,600,000 BDT</b></li>
+                </ul>
+
+                <p>2. Transportation Costs:</p>
+                <ul>
+                    <li>Transportation cost: <b>500,000 BDT.</b></li>
+                </ul>
+
+                <p>3. Distribution Costs:</p>
+                <ul>
+                    <li>Distribution cost:<b> 300,000 BDT.</b></li>
+                </ul>
+
+                <p>4. Other Costs:</p>
+                <ul>
+                    <li>Administrative costs, staff expenses, etc.:<b> 200,000 BDT.</b></li>
+                </ul>
+
+                <p>Total Budget:</p>
+                <ul>
+                    <li>Printing costs: 21,600,000 BDT</li>
+                    <li>Transportation costs: 500,000 BDT</li>
+                    <li>Distribution costs: 300,000 BDT</li>
+                    <li>Other costs: 200,000 BDT</li>
+                    <li><strong>Total Budget: 22,600,000 BDT</strong></li>
+                </ul>
+            </div>
+
+            <p><b>6. Project Success Evaluation:</b></p>
+            <ul>
+                <li>Collect feedback from students after distribution.</li>
+                <li>Gather opinions from the local community about the spread of religious education.</li>
+                <li>Analyze project outcomes and make recommendations for future projects.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="footer">
+            <p><b>We accept..</b></p>
+            <button><i class="fab fa-paypal"></i>PayPal</button>
+            <button><i class="fab fa-cc-visa"></i>VISA</button>
+            <button><i class="fab fa-cc-amex"></i>AMEX</button>
+            <button><i class="fas fa-university"></i>Bank Transfer</button>
+            <button><i class="fab fa-cc-stripe"></i>Stripe</button>
+        </div>
+    </div>
+
+   
+    <div class="header">
+        <div class="footer">
+            <p>©2024 <strong>CrestWave</strong></p>
+            <p><b>With a Vision for Tomorrow's Leaders</b> <br>by <a href="https://climate.stripe.com/ArsPAE">MJ-AHMAD</a></p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/MdJaforAhmad1989"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/QuranerFariwala"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/jafor-ahmod/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.github.con/mjahmad1"><i class="fab fa-github"></i></a>
+                <a href="https://orcid.org/0009-0008-8560-0756"><i class="fab fa-orcid"></i></a>
+            </div>
+            <div class="links">
+                <a href="https://mjahmad1.github.io/cwbd/terms.html">Terms</a>
+                <a href="https://mjahmad1.github.io/cwbd/privacy.html">Privacy</a>
+                <a href="https://mjahmad1.github.io/cwbd/about.html">About</a>
+                <a href="https://mjahmad1.github.io/cwbd/"><strong>Home</strong></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnswer(element) {
+            var answer = element.nextElementSibling;
+            if (answer.style.display === "none" || answer.style.display === "") {
+                answer.style.display = "block";
+            } else {
+                answer.style.display = "none";
+            }
+        }
+
+        function showPaymentMethods() {
+            document.getElementById('paymentMethods').style.display = 'block';
+        }
+
+        function showPaymentMethod() {
+            document.getElementById('paymentMethod').style.display = 'block';
+        }</script>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

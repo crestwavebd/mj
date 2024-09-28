@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-08-24T22:21:14.5216431Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2024-08-24T22:20:01.9794425Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "437ec721-d962-4f99-9d43-a96ac200da2d"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CrestWave_group"
+    }
+  }
+}

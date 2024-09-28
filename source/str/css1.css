@@ -1,0 +1,84 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    background: url('https://mjahmad1.github.io/cwbd/img/jo6.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.donation-box {
+    padding: 20px;
+    text-align: center;
+}
+
+    .donation-box h2 {
+        margin-bottom: 20px;
+    }
+
+    .donation-box input[type="text"], .donation-box input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .donation-box button {
+        background: #28a745;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .donation-box button:hover {
+            background: #218838;
+        }
+
+.footer {
+    background: #f1f1f1;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.faq {
+    padding: 20px;
+    text-align: left;
+}
+
+    .faq h2 {
+        margin-bottom: 20px;
+    }
+
+    .faq dt {
+        font-weight: bold;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .faq dd {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        display: none;
+    }

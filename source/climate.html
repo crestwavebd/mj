@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crest-Wave</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+            nav a {
+                color: white;
+                padding: 1rem;
+                text-decoration: none;
+                text-align: center;
+            }
+
+                nav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        .feature-box {
+            display: flex;
+            justify-content: space-around;
+            margin: 2rem 0;
+        }
+
+            .feature-box div {
+                background-color: white;
+                padding: 1rem;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 30%;
+                text-align: center;
+            }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Crest-Wave</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#projects">Projects</a>
+        <a href="#climate">Climate Membership</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero" id="home">
+        <h2>Welcome to Crest-Wave</h2>
+        <p>Empowering Education and Sustainability</p>
+        <a href="#about" style="color: white; text-decoration: underline;">Learn More</a>
+    </section>
+    <section class="container" id="about">
+        <h2>About Crest-Wave</h2>
+        <p>Crest-Wave is dedicated to empowering students and promoting sustainability through innovative projects and initiatives.</p>
+        <h3>Our Vision</h3>
+        <p>To create a world where every student has access to quality education and a sustainable future.</p>
+    </section>
+    <section class="container" id="projects">
+        <h2>Our Projects</h2>
+        <div class="feature-box">
+            <div>
+                <h3>শিক্ষার আলো</h3>
+                <p>শিক্ষার আলো দিয়ে ভবিষ্যৎ আলোকিত করি</p>
+                <a href="#project1">Learn More</a>
+            </div>
+            <div>
+                <h3>ডিজিটাল বাংলাদেশ</h3>
+                <p>প্রযুক্তির মাধ্যমে শিক্ষার নতুন দিগন্ত</p>
+                <a href="#project2">Learn More</a>
+            </div>
+            <div>
+                <h3>সবুজ স্কুল</h3>
+                <p>পরিবেশবান্ধব শিক্ষা, টেকসই ভবিষ্যৎ</p>
+                <a href="#project3">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="climate">
+        <h2>Proud Stripe Climate Member</h2>
+        <p>Crest-Wave is proud to be a part of Stripe Climate, contributing to the fight against climate change by supporting innovative carbon removal technologies. As a Stripe Climate Member, we commit a portion of our revenue to help scale promising carbon removal solutions, ensuring a sustainable future for our planet.</p>
+        <a href="https://climate.stripe.com/ArsPAE" target="_blank">Learn More About Stripe Climate</a>
+    </section>
+    <section class="container" id="blog">
+        <h2>Blog</h2>
+        <p>Stay tuned for our latest updates and stories.</p>
+    </section>
+    <section class="container" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+<textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+        <p>Address: 123 Main Street, Dhaka, Bangladesh</p>
+        <p>Phone: +880 123 456 789</p>
+        <p>Email: info@crestwave.com</p>
+    </section>
+    <footer>
+        <p>© 2024 Crest-Wave. All rights reserved.</p>
+    </footer>
+</body>
+</html>

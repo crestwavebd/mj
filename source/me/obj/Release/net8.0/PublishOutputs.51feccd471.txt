@@ -1,0 +1,6 @@
+G:\source\me\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\me\Settings.job
+G:\source\me\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\me\me.exe
+G:\source\me\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\me\me.dll
+G:\source\me\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\me\me.deps.json
+G:\source\me\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\me\me.runtimeconfig.json
+G:\source\me\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\me\me.pdb

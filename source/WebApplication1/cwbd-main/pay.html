@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CrestWave</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        <style >
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        .container p {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .header-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: flex-start; /* Change this line */
+            align-items: center;
+            background-color: #e0f7fa;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+            .header-content h1 {
+                flex: 1;
+                text-align: left; /* Change this line */
+                margin: 0;
+            }
+
+            .header-content img {
+                width: 50px;
+                height: auto;
+            }
+
+            .header-content h2 {
+                flex: 1;
+                text-align: center; /* Change this line */
+                margin: 0;
+            }
+
+        .faq-section {
+            margin-top: 40px;
+        }
+
+
+            .faq-section h2 {
+                text-align: center;
+            }
+
+        .faq {
+            margin: 20px 0;
+            cursor: pointer;
+        }
+
+            .faq h3 {
+                margin: 0;
+                padding: 10px;
+                background: #f4f4f4;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+
+            .faq p {
+                display: none;
+                margin: 0;
+                padding: 10px;
+                background: #fff;
+                border: 1px solid #ddd;
+                border-top: none;
+                border-radius: 0 0 5px 5px;
+            }
+
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .social-icons a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: #333;
+                font-size: 24px;
+            }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .footer-buttons {
+            margin-top: 10px;
+        }
+
+            .footer-buttons a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 10px;
+                padding: 10px 20px;
+                background: #4CAF50;
+                border-radius: 5px;
+            }
+
+                .footer-buttons a:hover {
+                    background: #45a049;
+                }
+
+        section {
+            text-align: center;
+            padding: 10px;
+            background: #fff;
+            color: black;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .section a {
+            color: antiquewhite;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: border-box;
+            border-radius: 5px;
+        }
+    </style>
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        #subtotal {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .center {
+            background-color: antiquewhite;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: floralwhite;
+            color: black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="text-center mx-auto pb-5">
+        <img src="img/g1.gif" alt="Description of GIF" width="100" height="100">
+    </div>
+    <div class=container>
+        <p><b>Select your Payment method</b></p>
+
+        <button class="button" onclick="window.location.href='https://shop.bkash.com/quraner-fariwalarm50980/paymentlink/default-payment'">Bkash</button>
+        <button class="button" onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'">PayPal</button>
+        <button class="button" onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'">VISA</button>
+        <button class="button" onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'">AMEX</button>
+        <button class="button" onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'">DISCOVER</button>
+        <button class="button" onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'">J C B</button>
+        <button class="button" onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'">G-Pay</button>
+        <button class="button" onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'">Apple Pay</button>
+        <button class="button" onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'">Revolut Pay</button>
+        <button class="button" onclick="window.location.href='https://donate.stripe.com/fZe8A99rua8EbegfZ1'">Bank Transfer</button>
+    </div>
+    </div>
+    <div class=container>
+        <p>
+            If you encounter any payment-related issues, please contact us at the following email:
+            <a href="mailto:mjahmad2024@outlook.com">mjahmad2024@outlook.com</a>
+        </p>
+    </div>
+    </div>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/MdJaforAhmad1989" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/QuranerFariwala" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/jafor-ahmod/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.github.con/mjahmad1/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://orcid.org/0009-0008-8560-0756" target="_blank"><i class="fab fa-orcid"></i></a>
+    </div>
+    <footer>
+        <p>© 2024 CrestWave</p>
+        <p><b>With a Vision for Tomorrow's Leaders</b> <br>by <a href="https://climate.stripe.com/ArsPAE">MJ-AHMAD</a></p>
+        <p><a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a> | <a href="index.html">Home</a> | <a href="support.html">Support</a></p>
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const savedSubtotal = localStorage.getItem('subtotal');
+            if (savedSubtotal) {
+                document.getElementById('subtotal').innerText = `subtotal: ${savedSubtotal} Tk`;
+            }
+        });
+    </script>
+
+
+    <script>
+        let subtotal = 0;
+
+        function updateSubtotal(amount) {
+            subtotal = amount;
+            document.getElementById('subtotal').innerText = `Subtotal: ${subtotal} BDT`;
+            localStorage.setItem('subtotal', subtotal);
+        }
+
+        function customAmount() {
+            const amount = prompt("কাস্টম এমাউন্ট লিখুন:");
+            if (amount !== null && !isNaN(amount)) {
+                updateSubtotal(parseInt(amount));
+            }
+        }
+
+        function goToCheckout() {
+            window.location.href = 'cwp11e.html';
+        }
+    </script>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        document.querySelectorAll('.faq h3').forEach((question) => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });</script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('spinner').classList.remove('show');
+        });
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+

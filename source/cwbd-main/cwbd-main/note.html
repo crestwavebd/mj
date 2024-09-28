@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media Images</title>
+<link rel="stylesheet" href="css/button/buttons.css">
+  <link rel="stylesheet" href="css/img/style.css">
+  <style>
+.more-content {
+display: none;
+}
+.button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+background-color: #007bff;
+color: white;
+}
+</style>
+</head>
+</head>
+<body>
+<h1>Social Media Images</h1>
+
+<!-- Facebook Images -->
+<h2>Facebook</h2>
+<img src="img/1/5.png" class="facebook-profile" alt="Facebook Profile Picture">
+<img src="img/1/5.png" class="facebook-cover" alt="Facebook Cover Photo">
+
+<!-- Instagram Images -->
+<h2>Instagram</h2>
+<img src="img/1/5.png" class="instagram-post" alt="Instagram Post">
+<img src="img/1/5.png" class="instagram-story" alt="Instagram Story">
+
+<!-- Twitter Images -->
+<h2>Twitter</h2>
+<img src="img/1/5.png" class="twitter-profile" alt="Twitter Profile Picture">
+<img src="img/1/5.png" class="twitter-header" alt="Twitter Header Photo">
+
+<!-- LinkedIn Images -->
+<h2>LinkedIn</h2>
+<img src="img/1/5.png" class="linkedin-profile" alt="LinkedIn Profile Picture">
+<img src="img/1/5.png" class="linkedin-banner" alt="LinkedIn Banner Photo">
+ <h1>Button Styles</h1>
+  <button class="button button-primary">Primary Button</button>
+<button class="button button-secondary">Secondary Button</button>
+<button class="button button-success">Success Button</button>
+<button class="button button-danger">Danger Button</button>
+<button class="button button-warning">Warning Button</button>
+<button class="button button-info">Info Button</button>
+<button class="button button-link">Link Button</button>
+  <h1>Article 1</h1>
+<p>This is a brief description of the first article. <span id="dots1">...</span><span id="more1" class="more-content">Here is the detailed content of the first article. It includes more information and insights about the topic discussed.</span></p>
+<button onclick="toggleContent('more1', 'dots1', this)" class="button">Read more</button>
+
+<h1>Article 2</h1>
+<p>This is a brief description of the second article. <span id="dots2">...</span><span id="more2" class="more-content">Here is the detailed content of the second article. It includes more information and insights about the topic discussed.</span></p>
+<button onclick="toggleContent('more2', 'dots2', this)" class="button">Read more</button>
+  <script>
+function toggleContent(moreId, dotsId, btn) {
+var moreText = document.getElementById(moreId);
+var dots = document.getElementById(dotsId);
+
+if (moreText.style.display === "none") {
+moreText.style.display = "inline";
+dots.style.display = "none";
+btn.innerHTML = "Read less";
+} else {
+moreText.style.display = "none";
+dots.style.display = "inline";
+btn.innerHTML = "index.html";
+}
+}
+</script>
+</body>
+</html>

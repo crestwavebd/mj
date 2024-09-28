@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now Button</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            flex-direction: column;
+        }
+
+        .donate-button, .additional-buttons button {
+            padding: 15px 30px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+
+            .donate-button:hover, .additional-buttons button:hover {
+                background-color: #45a049;
+            }
+
+        .additional-buttons {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+            .additional-buttons button.monthly {
+                background-color: #008CBA;
+            }
+
+                .additional-buttons button.monthly:hover {
+                    background-color: #007BB5;
+                }
+    </style>
+</head>
+<body>
+    <a href="#" class="donate-button" onclick="showAdditionalButtons()">Donate Now</a>
+    <div class="additional-buttons">
+        <button class="one-time" onclick="redirectTo('pay.html')">One Time</button>
+        <button class="monthly" onclick="redirectTo('mounthly.html')">Monthly</button>
+    </div>
+
+    <script>function showAdditionalButtons() {
+document.querySelector('.additional-buttons').style.display = 'flex';
+}
+
+function redirectTo(page) {
+window.location.href = page;
+}</script>
+</body>
+</html>

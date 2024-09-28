@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Box</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: url('https://mjahmad1.github.io/cwbd/img/jo6.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .donation-box {
+            padding: 20px;
+            text-align: center;
+        }
+
+            .donation-box h2 {
+                margin-bottom: 20px;
+            }
+
+            .donation-box input[type="text"], .donation-box input[type="number"] {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .donation-box button {
+                background: #28a745;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+                .donation-box button:hover {
+                    background: #218838;
+                }
+
+        .footer {
+            background: #f1f1f1;
+            color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Donate Now</h1>
+        </div>
+        <div class="donation-box">
+            <h2>Support Our Cause</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="number" placeholder="Amount">
+            <button>Donate</button>
+        </div>
+
+        <div class="footer">
+            <p>Thank you for your generosity!</p>
+        </div>
+    </div>
+
+
+
+ 
+        <!-- Services End -->
+        <div class="container">
+            <div class="faq-section">
+                <h2>FAQ</h2>
+                <div class="faq">
+                    <h3>What is the importance of inclusive education?</h3>
+                    <p>Inclusive education ensures that all students, regardless of their background or abilities, have access to quality education and opportunities to succeed. It promotes equality and helps in building a more inclusive society.</p>
+                </div>
+                <div class="faq">
+                    <h3>How can technology improve education?</h3>
+                    <p>Technology can enhance education by providing access to a vast array of online resources, enabling digital classrooms, and facilitating e-learning platforms. It makes learning more interactive, accessible, and personalized, catering to the needs of individual students.</p>
+                </div>
+                <div class="faq">
+                    <h3>What are green initiatives in schools?</h3>
+                    <p>Green initiatives in schools include activities like tree planting, creating gardens, and recycling projects. These initiatives promote environmental responsibility among students and help in creating a sustainable and eco-friendly school environment.</p>
+                </div>
+                <div class="faq">
+                    <h3>Why is teacher training important?</h3>
+                    <p>Teacher training is crucial for enhancing the quality of education. Well-trained teachers are better equipped with modern teaching methods and technologies, which can significantly improve student learning outcomes and overall educational standards.</p>
+                </div>
+                <div class="faq">
+                    <h3>How can community engagement benefit education?</h3>
+                    <p>Community engagement in education fosters a collaborative environment where local communities actively participate in the educational process. It helps in addressing local educational needs, improving school facilities, and creating a supportive learning environment for students.</p>
+                </div>
+                <div class="faq">
+                    <h3>What is a climate-resilient curriculum?</h3>
+                    <p>A climate-resilient curriculum is designed to educate students about the impacts of climate change and ways to adapt to it. It includes topics on environmental science, sustainable practices, and disaster preparedness, preparing students to tackle future climate challenges effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/MdJaforAhmad1989" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/QuranerFariwala" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/jafor-ahmod/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.github.con/mjahmad1/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://orcid.org/0009-0008-8560-0756" target="_blank"><i class="fab fa-orcid"></i></a>
+        </div>
+        <footer>
+            <p>© 2024 CrestWave</p>
+            <p><b>With a Vision for Tomorrow's Leaders</b> <br>by <a href="https://climate.stripe.com/ArsPAE">MJ-AHMAD</a></p>
+            <p><a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a> | <a href="index.html">Home</a> | <a href="support.html">Support</a></p>
+        </footer>
+
+
+
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+            document.querySelectorAll('.faq h3').forEach((question) => {
+                question.addEventListener('click', () => {
+                    const answer = question.nextElementSibling;
+                    answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                });
+            });</script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                document.getElementById('spinner').classList.remove('show');
+            });
+        </script>
+    </body>
+</html>

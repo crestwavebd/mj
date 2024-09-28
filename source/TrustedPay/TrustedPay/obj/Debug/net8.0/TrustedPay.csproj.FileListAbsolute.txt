@@ -1,0 +1,7 @@
+G:\source\TrustedPay\TrustedPay\obj\Debug\net8.0\TrustedPay.GeneratedMSBuildEditorConfig.editorconfig
+G:\source\TrustedPay\TrustedPay\obj\Debug\net8.0\TrustedPay.AssemblyInfoInputs.cache
+G:\source\TrustedPay\TrustedPay\obj\Debug\net8.0\TrustedPay.AssemblyInfo.cs
+G:\source\TrustedPay\TrustedPay\obj\Debug\net8.0\TrustedPay.csproj.CoreCompileInputs.cache
+G:\source\TrustedPay\TrustedPay\obj\Debug\net8.0\TrustedPay.MvcApplicationPartsAssemblyInfo.cache
+G:\source\TrustedPay\TrustedPay\obj\Debug\net8.0\TrustedPay.RazorAssemblyInfo.cache
+G:\source\TrustedPay\TrustedPay\obj\Debug\net8.0\TrustedPay.RazorAssemblyInfo.cs
